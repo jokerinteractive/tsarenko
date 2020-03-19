@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit.">
+    <title>Обратная связь</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&amp;display=swap">
+    <link rel="stylesheet" href="css/MyFontsWebfontsKit.css">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <header class="site-header js-header">
+      <div class="container"><a class="site-header__logo" href="index.html">Кирилл Царенко</a><a class="site-header__brief-btn" href="#">Заполнить бриф</a></div>
+    </header>
+    <main>
+      <section class="feedback">
+        <div class="container">
+          <h1 class="visually-hidden">Обратная связь</h1>
+          <p>Здравствуйте.</p>
+          <p>Я занимаюсь управлением в области разработки и ведения интернет-проектов, а также интернет-рекламой.</p>
+          <p><a class="link" href="#">Здесь</a> я рассказываю о своей проделанной работе.</p>
+          <p><a class="link" href="#">Здесь</a> пишу о разработке и рекламе в интернете.</p>
+          <p>Если вы хотите поработать со мной или если у вас есть вопросы, воспользуйтесь формой обратной связи.</p>
+          <div class="feedback__form js-form">
+            <form action="https://echo.htmlacademy.ru" method="post">
+              <div class="feedback__contact-info js-input">
+                <label for="name">Ваше имя</label>
+                <input type="text" name="name" id="name" required>
+              </div>
+              <div class="feedback__contact-info js-input">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+              </div>
+              <div class="feedback__contact-info js-input js-tel">
+                <label for="tel">Телефон</label>
+                <input type="tel" name="tel" id="tel" required>
+              </div>
+              <div class="feedback__message js-input">
+                <label class="visually-hidden" for="message">Ваше сообщение</label>
+                <textarea name="message" id="message" rows="5" placeholder="Ваше сообщение" required></textarea>
+              </div>
+              <div class="feedback__agreement">
+                <input class="visually-hidden" type="checkbox" name="agreement" id="agreement" checked>
+                <label for="agreement">Я даю согласие на обработку персональных данных</label>
+              </div>
+              <button type="submit">Отправить</button>
+            </form>
+            <p class="feedback__success-message">Ваше письмо отправлено</p>
+          </div><a class="articles-btn" href="articles.html">Вернуться ко всем статьям</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>Кирилл Царенко © 2020</p>
+        <p>Для повышения удобства сайт использует cookies. Оставаясь на сайте, вы соглашаетесь с <a class="link" href="#">политикой конфиденциальности</a>.</p>
+      </div>
+    </footer>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
