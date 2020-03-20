@@ -1,0 +1,13 @@
+.container {
+  width: $desktop-width;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  @include tablet {
+    width: $tablet-width;
+  }
+
+  @include mobile {
+    width: auto;
+  }
+}

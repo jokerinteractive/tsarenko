@@ -1,0 +1,23 @@
+.slider {
+  margin-bottom: 41px;
+  overflow: visible;
+}
+
+.slider__list {
+  @include list-reset;
+}
+
+.slider__item {
+  position: relative;
+  width: auto;
+  margin-right: 30px;
+  box-shadow: 0 12px 42px rgba(40, 40, 40, 0.1);
+
+  img {
+    display: block;
+  }
+
+  &.is-hidden {
+    opacity: 0;
+  }
+}

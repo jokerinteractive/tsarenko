@@ -1,0 +1,37 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3881744, 2020-03-19T13:49:18-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Gilroy-Heavy by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/heavy/
+ *
+ * Webfont: Gilroy-Bold by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/bold/
+ *
+ *
+ * Webfonts copyright: Copyright &amp;#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ *
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3b3b10");
+
+@font-face {
+  src: url('../webFonts/Gilroy-Heavy/font.eot');
+  font-family: 'Gilroy-Heavy';
+  src: url('../webFonts/Gilroy-Heavy/font.woff2') format('woff2'), url('../webFonts/Gilroy-Heavy/font.woff') format('woff'), url('../webFonts/Gilroy-Heavy/font.eot?#iefix') format('embedded-opentype'), url('../webFonts/Gilroy-Heavy/font.ttf') format('truetype');
+}
+@font-face {
+  src: url('../webFonts/Gilroy-Bold/font.eot');
+  font-family: 'Gilroy-Bold';
+  src: url('../webFonts/Gilroy-Bold/font.woff2') format('woff2'), url('../webFonts/Gilroy-Bold/font.woff') format('woff'), url('../webFonts/Gilroy-Bold/font.eot?#iefix') format('embedded-opentype'), url('../webFonts/Gilroy-Bold/font.ttf') format('truetype');
+}
+

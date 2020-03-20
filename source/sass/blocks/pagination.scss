@@ -1,0 +1,77 @@
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    color: $color-charade;
+    transition: color $transition-time $transition-function, background-color $transition-time $transition-function;
+
+    &[href]:hover,
+    &[href]:focus {
+      color: $color-white;
+      background-color: $color-pomegranate;
+
+      &::before {
+        border-bottom-color: $color-white;
+        border-left-color: $color-white;
+      }
+    }
+  }
+}
+
+.pagination__pages {
+  display: flex;
+  margin-right: 30px;
+  background-color: $color-white;
+  box-shadow: 0 2px 32px rgba(40, 40, 40, 0.1);
+
+  a:last-child {
+    width: 66px;
+  }
+
+  @include mobile {
+    margin-bottom: 20px;
+  }
+}
+
+.pagination__buttons {
+  display: flex;
+  background-color: $color-white;
+  box-shadow: 0 2px 32px rgba(40, 40, 40, 0.1);
+
+  a {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 12px;
+      width: 6px;
+      height: 6px;
+      border: 3px solid $color-charade;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      transition: border-bottom-color $transition-time $transition-function, border-left-color $transition-time $transition-function;
+    }
+  }
+}
+
+.pagination__prev-btn {
+  &::before {
+    left: 14px;
+    transform: rotate(45deg);
+  }
+}
+
+.pagination__next-btn {
+  &::before {
+    left: 11px;
+    transform: rotate(-135deg);
+  }
+}

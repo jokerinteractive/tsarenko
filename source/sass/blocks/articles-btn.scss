@@ -1,0 +1,33 @@
+.articles-btn {
+  position: relative;
+  padding: 7px 26px 6px 34px;
+  color: $color-charade;
+  background-color: $color-white;
+  box-shadow: 0 2px 32px rgba(40, 40, 40, 0.1);
+  transition: color $transition-time $transition-function, background-color $transition-time $transition-function;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 21px;
+    width: 6px;
+    height: 6px;
+    border: 3px solid $color-charade;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(45deg);
+    transition: border-bottom-color $transition-time $transition-function, border-left-color $transition-time $transition-function;
+  }
+
+  &:hover,
+  &:focus {
+    color: $color-white;
+    background-color: $color-pomegranate;
+
+    &::before {
+      border-bottom-color: $color-white;
+      border-left-color: $color-white;
+    }
+  }
+}

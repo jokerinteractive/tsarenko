@@ -1,0 +1,29 @@
+.articles {
+  margin-bottom: 74px;
+
+  .article {
+    margin-bottom: 50px;
+
+    p {
+      margin-bottom: 13px;
+    }
+  }
+
+  .article__hashtags {
+    margin-bottom: 62px;
+  }
+
+  .slider {
+    margin-top: 43px;
+    margin-bottom: 67px;
+  }
+}
+
+.articles__hashtag-title {
+  margin-top: 47px;
+  margin-bottom: 54px;
+  font-family: "Gilroy-Bold", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+}

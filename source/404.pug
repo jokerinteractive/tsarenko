@@ -1,0 +1,15 @@
+extends pug/layout.pug
+
+block variables
+  -
+    var page = {
+      title: 'Страница не найдена',
+      name: '404'
+    };
+
+block content
+  section.page-404
+    .container
+      h1 404
+      p Здравствуйте.
+      p Страницы, к которой вы обратились, не существует. Вы можете вернуться на <a class="link" href="index.html">главную</a> или к <a class="link" href="articles.html">списку моих статей</a>. Если вы хотите связаться со мной, то сделать это можно на <a class="link" href="feedback.html">этой странице</a>.

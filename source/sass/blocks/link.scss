@@ -1,0 +1,11 @@
+.link {
+  color: $color-charade;
+  text-decoration: underline;
+  transition: color $transition-time $transition-function;
+
+  &:hover,
+  &:focus {
+    color: $color-pomegranate;
+    text-decoration: none;
+  }
+}

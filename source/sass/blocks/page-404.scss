@@ -1,0 +1,23 @@
+.page-404 {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 260px);
+  }
+
+  h1 {
+    margin: 0;
+    margin-bottom: 46px;
+    font-family: "Gilroy-Heavy", "Arial", sans-serif;
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+  }
+
+  p {
+    max-width: 570px;
+    margin: 0;
+    margin-bottom: 6px;
+  }
+}
