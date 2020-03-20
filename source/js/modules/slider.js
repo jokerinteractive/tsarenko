@@ -7,12 +7,17 @@
     if (slider) {
       let mySwiper = new Swiper ('.js-slider', {
         slidesPerView: 'auto',
+        spaceBetween: 30,
         loop: true,
         loopedSlides: 4,
         keyboard: {
           enabled: true,
           onlyInViewport: true,
         },
+
+        watchSlidesProgress: true,
+        watchSlidesVisibility: true,
+
         on: {
           sliderMove: function () {
             if (!this.isMoved) {
