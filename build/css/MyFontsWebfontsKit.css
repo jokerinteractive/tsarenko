@@ -32,22 +32,26 @@
 
 @font-face {
   src: url('../webFonts/Gilroy-Light/font.eot');
-  font-family: 'Gilroy-Light';
+  font-family: 'Gilroy';
+  font-weight: 300;
   src: url('../webFonts/Gilroy-Light/font.woff2') format('woff2'), url('../webFonts/Gilroy-Light/font.woff') format('woff'), url('../webFonts/Gilroy-Light/font.eot?#iefix') format('embedded-opentype'), url('../webFonts/Gilroy-Light/font.ttf') format('truetype');
 }
 @font-face {
   src: url('../webFonts/Gilroy-ExtraBold/font.eot');
-  font-family: 'Gilroy-ExtraBold';
+  font-family: 'Gilroy';
+  font-weight: 800;
   src: url('../webFonts/Gilroy-ExtraBold/font.woff2') format('woff2'), url('../webFonts/Gilroy-ExtraBold/font.woff') format('woff'), url('../webFonts/Gilroy-ExtraBold/font.eot?#iefix') format('embedded-opentype'), url('../webFonts/Gilroy-ExtraBold/font.ttf') format('truetype');
 }
 @font-face {
   src: url('../webFonts/Gilroy-Heavy/font.eot');
-  font-family: 'Gilroy-Heavy';
+  font-family: 'Gilroy';
+  font-weight: 900;
   src: url('../webFonts/Gilroy-Heavy/font.woff2') format('woff2'), url('../webFonts/Gilroy-Heavy/font.woff') format('woff'), url('../webFonts/Gilroy-Heavy/font.eot?#iefix') format('embedded-opentype'), url('../webFonts/Gilroy-Heavy/font.ttf') format('truetype');
 }
 @font-face {
   src: url('../webFonts/Gilroy-Bold/font.eot');
-  font-family: 'Gilroy-Bold';
+  font-family: 'Gilroy';
+  font-weight: 700;
   src: url('../webFonts/Gilroy-Bold/font.woff2') format('woff2'), url('../webFonts/Gilroy-Bold/font.woff') format('woff'), url('../webFonts/Gilroy-Bold/font.eot?#iefix') format('embedded-opentype'), url('../webFonts/Gilroy-Bold/font.ttf') format('truetype');
 }
 
