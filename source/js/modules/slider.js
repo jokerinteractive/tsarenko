@@ -9,15 +9,11 @@
         slidesPerView: 'auto',
         spaceBetween: 30,
         loop: true,
-        loopedSlides: 4,
+        loopedSlides: 8,
         keyboard: {
           enabled: true,
           onlyInViewport: true,
         },
-
-        watchSlidesProgress: true,
-        watchSlidesVisibility: true,
-
         on: {
           sliderMove: function () {
             if (!this.isMoved) {

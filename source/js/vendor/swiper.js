@@ -2450,7 +2450,7 @@
       if (slideChanged && diff !== 0) {
         swiper.setTranslate((rtl ? -swiper.translate : swiper.translate) - diff);
       }
-    } else if (activeIndex >= slides.length - loopedSlides) {
+    } else if (activeIndex >= slides.length - loopedSlides - 1) {
       // Fix For Positive Oversliding
       newIndex = -slides.length + activeIndex + loopedSlides;
       newIndex += loopedSlides;
